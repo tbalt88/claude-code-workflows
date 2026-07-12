@@ -72,6 +72,12 @@ These optional plugins cover adjacent stages in the workflow:
 /plugin install pr-review@claude-code-workflows
 ```
 
+### Run CCW on Grok
+
+[Grok Workflows](https://github.com/shinpr/grok-workflows) runs CCW largely as-is on Grok. Its small, always-on mapping skill covers the remaining runtime differences in tool names, agent identifiers, and progress tracking. The same workflows run with little additional context.
+
+Grok provides a faster, lower-cost runtime for CCW without requiring a separate port or duplicated workflow definitions.
+
 ### Skills only
 
 If you already have your own orchestration (custom prompts, scripts, CI-driven loops) and want only the best-practice guides, use `dev-skills`. If you want Claude to plan, execute, and verify end-to-end, install `dev-workflows`.
