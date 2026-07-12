@@ -72,11 +72,11 @@ These optional plugins cover adjacent stages in the workflow:
 /plugin install pr-review@claude-code-workflows
 ```
 
-### Run CCW on Grok
+### Grok compatibility
 
-[Grok Workflows](https://github.com/shinpr/grok-workflows) runs CCW largely as-is on Grok. Its small, always-on mapping skill covers the remaining runtime differences in tool names, agent identifiers, and progress tracking. The same workflows run with little additional context.
+[Grok Workflows](https://github.com/shinpr/grok-workflows) runs Claude Code Workflows largely as-is on Grok. Its small, always-on mapping skill covers the remaining runtime differences in tool names, agent identifiers, and progress tracking. The same workflows run with little additional context.
 
-Grok provides a faster, lower-cost runtime for CCW without requiring a separate port or duplicated workflow definitions.
+Grok provides a faster, lower-cost runtime for Claude Code Workflows without requiring a separate port or duplicated workflow definitions.
 
 ### Skills only
 
